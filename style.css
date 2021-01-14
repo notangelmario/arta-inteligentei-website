@@ -23,6 +23,13 @@ img {
   margin-right: 5vw;
   margin-left: 5vw;
 }
+
+.container.mauv img {
+  width: 100%;
+  border-radius: 1rem;
+  pointer-events: all;
+}
+
 @media only screen and (min-width: 600px) {
   .container {
     margin-right: 15vw;
@@ -88,7 +95,7 @@ a {
   margin: 0 25vw 2rem 25vw;
   gap: 1rem;
   justify-content: center;
-  align-content: center
+  align-content: center;
   align-items: center;
 }
 
