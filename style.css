@@ -172,3 +172,23 @@ footer a img {
   border-radius: 50rem;
   background: linear-gradient(145deg, #1e1e1e, #232323);
 }
+
+.member-list {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+}
+
+.member-list > img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 400px) {
+  .member-list {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}
